@@ -1,0 +1,29 @@
+.subscription{
+    display: flex;
+    justify-content: space-between;
+    align-items:center;
+    /*box-shadow: 0 2px 8px rgba(0, 0, 0, 0.25);*/
+    padding: 0.5rem;
+    margin: 1rem 0;
+   /* border-radius: 12px;*/
+    background-color: #4b4b4b;
+}
+
+.subscription_date{
+    color: rgb(32, 178, 44);
+    background-color: rgb(230, 24, 24);
+}
+
+.subscription_title{
+    color:aqua;
+    background-color: antiquewhite;
+}
+
+.subscription_price{
+    font-size: 1rem;
+    font-weight: bold;
+    color: blue;
+    background-color: lightpink;
+}
+
+
