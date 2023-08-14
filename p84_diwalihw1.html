@@ -1,0 +1,134 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>flex7</title>
+	<style type="text/css">
+		*
+		{
+			margin: 0;
+			padding: 0;
+			box-sizing: border-box;
+		}
+		header .row,nav .row,section .row,footer .row
+		{
+			background-color: #EAEDED;
+			padding: 10px;
+			margin: 10px;
+			display: flex;
+			flex-wrap: wrap;
+			flex-direction: row;
+			justify-content: center;
+		}
+		nav .row,footer .row
+		{
+			justify-content: flex-start;
+		}
+		header .row .item1,section .row .item1
+		{
+			background-color: #FF5733;
+			padding: 2px;
+		}
+		header .row .item2,section .row .item2
+		{
+			background-color: #FFC300;
+			flex: 1;
+		}
+		header .row .item,section .row .item
+		{
+			margin: 5px;
+		}
+		section .row .item
+		{
+			width: 230px;
+		}
+		@media(max-width: 400px)
+		{
+			header .row,nav .row,section .row,footer .row
+			{
+				display: flex;
+				flex-wrap: wrap;
+				flex-direction: column;
+				justify-content: center;
+			}
+		}
+		@media(max-width: 600px)
+		{
+			header .row,nav .row,section .row,footer .row
+			{
+				display: flex;
+				flex-wrap: wrap;
+				flex-direction: column;
+				justify-content: center;
+			}
+		}
+		@media(max-width: 800px)
+		{
+			header .row,nav .row,section .row,footer .row
+			{
+				display: flex;
+				flex-wrap: wrap;
+				flex-direction: column;
+				justify-content: center;
+			}
+		}
+	</style>
+</head>
+<body>
+<div class="container">
+	<header>
+		<div class="row">
+			<div class="item item1">
+				<img src="parleg2.png" width="200px" height="200px">
+			</div>
+
+		    <div class="item item2" align="center">
+			<h1>PARLE-G</h1>
+			<h3>INDIAS NO. 1 BUISCUIT</h3>
+			<small>
+            Parle-G Biscuits
+            Owner	Parle Products 
+            Country India
+            Markets	Worldwide</small>
+		    </div>
+	     </div>
+	</header>
+
+	<nav>
+		<div class="row">
+			<div class="item item1">
+				HOME|ABOUT US|CONTACT US
+			</div>
+		</div>
+	</nav>
+
+	<section>
+		<div class="row">
+			<div class="item item1" align="center">
+				<img src="parleg3.png">
+			</div>
+			<div class="item item2">
+				<h1>History of Parle-G Buiscuit</h1>
+			    <h3>Parle Products was established as a confectionery maker in the Vile Parle suburb of Mumbai, in 1929. Parle Products began manufacturing biscuits in 1939. In 1947, when India became independent, the company launched an ad campaign, showcasing its Gluco brand of biscuits as an Indian alternative to British-branded biscuits.
+                1947 advertisement</h3>
+			    <small>In 2013, Parle-G became India's first FMCG brand to cross the ₹5,000 crore mark in retail sales.[4]
+Popularity
+
+Primarily eaten as a tea-time snack, Parle-G is one of the oldest brand names in India. For decades, the product was instantly recognized by its iconic white and yellow wax paper wrapper. The wrapper features a young girl (an illustration by Everest creative Maganlal Daiya back in the 1960s).[5]
+
+Parle-G has recently become available in plastic wrapping. The modern packaging retains its traditional design. The change in materials was promoted with advertisements showing a Parle-G packet placed into a fish tank.
+
+As of January 2013, Parle-G's strong distribution network covered over 6 million retail stores in India.[6] The Brand Trust Report ranked Parle-G as the 42nd most trusted brand of India in 2014.</small>
+			</div>
+		</div>
+	</section>
+
+	<footer>
+		<div class="row">
+			<div class="item item1" align="center">
+				<b><a href="">design and develop by Soumya Bolenwar.</a></b>
+			</div>
+		</div>
+	</footer>
+</div>
+</body>
+</html>
